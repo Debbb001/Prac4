@@ -9,7 +9,7 @@ html{
 }
 
 a{text-decoration: none;
-color: #fff;
+  color: #fff;
 }
 
 section{
@@ -21,9 +21,9 @@ section{
   padding: 5rem;
   width: 32rem;
   height: 2rem;
-  background-color: #283282;
+  background-color: #123768;
   text-transform: uppercase;
-  font-size: 20px: 3px;
+  font-size: 40px: 3px;
   margin-right: 3px;
   margin: 0;
   text-align: center;
@@ -36,7 +36,7 @@ section{
   align-items: center;
   align-content: center;
   flex-direction: column;
-
+  color: #ffffcc;
 }
 
 .heading::after{
@@ -53,7 +53,7 @@ section{
 
 .card{
   width: 32rem;
-  background-color: #ebeef8;
+  background-color: #123768;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,19 +69,20 @@ section{
 }
 .card .btn{
   padding: 1rem 2.5rem;
-  background-color: #445ae3;
+  background-color: #6d8faa;
   border-radius: 2rem;
   margin: 1rem 0;
   text-transform: uppercase;
-  color: #eee;
+  color: #ffffcc;
   font-size: 0.9rem;
 }
 
 .card .btn:hover{
   color: #45e19f;
-  transform: translateY(-2px);
+  transform: translateY(-8px);
   box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
 }
+
 .card .btn:active{
   transform: translateY(0);
   box-shadow: none;
@@ -90,4 +91,6 @@ section{
 .about{
   padding: 2rem;
   text-align: center;
+  font-family: arial;
+  font-color: #gold;
 }
